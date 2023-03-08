@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        >
+
+
+        <TextView
+            android:id="@+id/recipeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recipe Name"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:layout_margin="15dp"
+
+
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:layout_centerVertical="true"
+            android:id="@+id/imageView"
+            app:civ_border_width="20px"
+            app:civ_border_color="#79f52e"
+
+            />
+
+
+        <Button
+            android:id="@+id/linkedButton"
+            android:text="Open Link"
+            android:layout_margin="20dp"
+            android:layout_width="120dp"
+            android:layout_height="60dp"/>
+
+        <TextView
+            android:id="@+id/descriptionView"
+            android:layout_margin="20dp"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
