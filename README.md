@@ -34,7 +34,7 @@ INTRODUCTION:
 
 DESIGN RATIONALE:
 
-    A. Data Storage:
+    -A. Data Storage:
         -For the data storing method I chose to make use of a SQLite Database provided by Androids libraries for the following the reasons:
             1. SQLite can perform faster and more efficient queries than SharedPreferences, especially when a large set of items that needs
                to be searched through is present.
@@ -44,9 +44,9 @@ DESIGN RATIONALE:
 
         -The SQLite DB stores the following fields: (name TEXT primary key, imageURL TEXT,recipeURL TEXT, description TEXT)
 
-    B. Activity Layouts:
+    -B. Activity Layouts:
         -My Design Rationale for utilising a relative layout on the MainActivity is:
-            1. It allows you to position your views based on their relationships with one another and with the parent container, which gives you more flexibility and control over the layout design.
+            1. It allows you to position your views based on their relationships with one another and with the parent container, which gives you more flexibility and control   over the layout design.
             2. It can eliminate nested view groups and keep your layout hierarchy flat, which improves performance by reducing memory usage and rendering time.
             3. It can make your code more readable and maintainable by using descriptive attributes such as `android:layout_above`, `android:layout_below`, `android:layout_toLeftOf`, etc. instead of hard-coded values or margins.
             4. It can enhance the usability of your app by adapting to different screen sizes and orientations without requiring extra layouts or adjustments.
