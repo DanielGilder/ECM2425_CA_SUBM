@@ -57,7 +57,7 @@ DESIGN RATIONALE:
             3. It provides attributes such as android:gravity and android:layout_gravity to control the alignment of the views within the layout and within their parent container, which makes it flexible and adaptable.
             4. It allows you to assign weights to the views using the android:layout_weight attribute, which determines how much space each view occupies in relation to other views in the layout, which makes it efficient and responsive.
 
-    C. Colour Scheme:
+    -C. Colour Scheme:
         -My reasons for choosing the colours Dark Green, Light Green and Black for the UI design:
             1. Dark Green and Light Green can create a natural and fresh look for the app, which can appeal to food lovers who care about health and quality.
             2. Dark Green and Light Green can also contrast well with white fonts or icons, making the app more readable and user-friendly.
@@ -65,16 +65,19 @@ DESIGN RATIONALE:
             4. Black can also balance out the brightness of the green colours, making the app more visually pleasing and harmonious.
 
 NOVEL FEATURES:
+
     -A novel feature that I added to the application which was not asked for by specification was a data entry page.
     -On the MainActivity users can enter and submit their data (Recipe data) using 4 text fields and a submit and button.
 
 CHALLENGES FACED:
+
     -The original plan was to develop the app using the SharedPreferences feature for the application storage,I spent many hours trying to get the SharedPreferences
      to work with in the app and by the time I did, the SharedPreferences would create occasional errors or be unresponsive or slow, I wasn't sure if this was due to my
      AVD or my code, however it expended a vast amount of my free and development time. Which is one of the reasons why I had to resort to the SQLite
      method.
 
 FUTURE IMPROVEMENTS:
+
     -Bugs:
         1. This isn't so much of a bug, but rather a latency issue, when the app displays the fetched image from the URL, there is sometimes a delay in displaying
             the image. However this could be potentially improved with better programming methods.
